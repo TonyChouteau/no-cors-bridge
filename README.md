@@ -9,6 +9,8 @@ Make a request on : http://vps.tonychouteau.fr/bridge/<request\>
 
 Exemple : http://vps.tonychouteau.fr/bridge/https://jsonplaceholder.typicode.com/todos/1
 
+Only GET works for now.
+
 ## **Use**
 
 ### **Before**
