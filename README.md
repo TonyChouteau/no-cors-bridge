@@ -5,7 +5,7 @@ Server to pass through no cors with Axios server side (XMLHttpRequest)
 
 ## **How to use it**
 
-Make a request on : http://vps.tonychouteau.fr/bridge/\<request\>
+Make a request on : http://vps.tonychouteau.fr/bridge/<request\>
 
 Exemple : http://vps.tonychouteau.fr/bridge/https://jsonplaceholder.typicode.com/todos/1
 
