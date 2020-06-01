@@ -18,12 +18,14 @@ router.get('*', function(req, res) {
 	console.log("\nNew Request : "+url+"\n========================");
 	axios.get(url)
 	.then(response => {
-		console.log(response.data+"\n\n========================");	
+		console.log(response.data);
+		console.log("\n\n========================\n");	
 		res.send(response.data)
 	})
 	.catch(error => {
-		console.log(error+"\n\n========================");
-		res.send(error);
+		console.log(error);
+		console.log("\n\n========================\n");
+		res.send("Error");
 	});
 });
 
