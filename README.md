@@ -19,4 +19,4 @@ fetch("https://api.namefake.com/french-france/random")
 });
 ```
 
-![Cross-Origin Error](./Annotation 2020-06-01 041643.png)
+![Cross-Origin Error](https://raw.githubusercontent.com/TonyChouteau/no-cors-bridge/master/Annotation%202020-06-01%20041643.png)
