@@ -9,7 +9,9 @@ Make a request on : http://vps.tonychouteau.fr/bridge/<request>
 
 Exemple : http://vps.tonychouteau.fr/bridge/https://jsonplaceholder.typicode.com/todos/1
 
-## Pass through cors
+## **Pass through cors**
+
+### **Before**
 
 ```javascript
 fetch("https://api.namefake.com/french-france/random")
@@ -20,3 +22,15 @@ fetch("https://api.namefake.com/french-france/random")
 ```
 
 ![Cross-Origin Error](https://raw.githubusercontent.com/TonyChouteau/no-cors-bridge/master/Annotation%202020-06-01%20041643.png)
+
+### **Now**
+
+```javascript
+fetch("http://vps.tonychouteau.fr/bridge/https://api.namefake.com/french-france/random")
+.then(res => res.json())
+.then(data => {
+	console.log(data);
+});
+```
+
+![It works !](https://raw.githubusercontent.com/TonyChouteau/no-cors-bridge/master/Annotation%202020-06-01%20041643.png)
