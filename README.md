@@ -19,4 +19,4 @@ fetch("https://api.namefake.com/french-france/random")
 });
 ```
 
-![Annotation 2020-06-01 041643.png](Cross-Origin Error)
+![Cross-Origin Error](Annotation 2020-06-01 041643.png)
