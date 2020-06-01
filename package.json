@@ -1,0 +1,23 @@
+{
+  "name": "no-cors-bridge",
+  "version": "1.0.0",
+  "description": "Server to pass through no cors with Axios server side (XMLHttpRequest)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonyChouteau/no-cors-bridge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonyChouteau/no-cors-bridge/issues"
+  },
+  "homepage": "https://github.com/TonyChouteau/no-cors-bridge#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
+}
