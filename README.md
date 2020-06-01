@@ -21,7 +21,7 @@ fetch("https://api.namefake.com/french-france/random")
 });
 ```
 
-![Cross-Origin Error](https://raw.githubusercontent.com/TonyChouteau/no-cors-bridge/master/Annotation%202020-06-01%20041643.png)
+![Cross-Origin Error](https://raw.githubusercontent.com/TonyChouteau/no-cors-bridge/master/NotOK.png)
 
 ### **Now**
 
@@ -33,4 +33,4 @@ fetch("http://vps.tonychouteau.fr/bridge/https://api.namefake.com/french-france/
 });
 ```
 
-![It works !](https://raw.githubusercontent.com/TonyChouteau/no-cors-bridge/master/Annotation%202020-06-01%20041643.png)
+![It works !](https://raw.githubusercontent.com/TonyChouteau/no-cors-bridge/master/OK.png)
