@@ -9,7 +9,7 @@ Make a request on : http://vps.tonychouteau.fr/bridge/<request\>
 
 Exemple : http://vps.tonychouteau.fr/bridge/https://jsonplaceholder.typicode.com/todos/1
 
-## **Pass through cors**
+## **Use**
 
 ### **Before**
 
