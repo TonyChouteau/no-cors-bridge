@@ -1,5 +1,5 @@
 # **no-cors-bridge**
-A NodeJS server to pass through no cors with Axios server side (XMLHttpRequest)
+A NodeJS server to pass through cors with Axios server side (XMLHttpRequest)
 
 # **Already online**
 
